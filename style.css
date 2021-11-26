@@ -1,0 +1,72 @@
+html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+body{
+    margin: auto;
+    width: 80%;
+}
+
+main{
+    padding-bottom: 20px;
+}
+
+/* header */
+header{
+    background-color: plum;
+    width: 100%;
+    height: 80px;
+}
+
+/* main */
+.yellow-box{
+    background-color: yellow;
+    width: 100%;
+    height: 500px;
+    margin: 20px 0px;
+}
+
+.light-blue-box{
+    background-color: lightblue;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+}
+
+/* float */
+.blue-box{
+    width: 100%;
+    background-color: blue;
+}
+
+.box-20{
+    float: left;
+    background-color: lightblue;
+    height: 500px;
+    width: 20%;
+}
+
+.box-60{
+    float: left;
+    background-color: lightblue;
+    height: 500px;
+    width: 56%;
+    margin: 0px 2%;
+    box-sizing: border-box;
+}
+
+main::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* footer */
+footer{
+    background-color: rgb(107, 0, 207);
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
